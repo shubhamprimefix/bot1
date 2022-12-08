@@ -20,9 +20,9 @@ PAGE_NO = 1
 
 
 class MirrorStatus:
-    STATUS_UPLOADING = "Up.."
-    STATUS_DOWNLOADING = "Down.."
-    STATUS_CLONING = "Cloning.."
+    STATUS_UPLOADING = "Uploading..."
+    STATUS_DOWNLOADING = "Downloading..."
+    STATUS_CLONING = "Cloning..."
     STATUS_WAITING = "Queue"
     STATUS_PAUSED = "Pause"
     STATUS_ARCHIVING = "Archiving.."
@@ -341,6 +341,7 @@ USED : {used} | FREE :{free}
 SENT : {sent} | RECV : {recv}\n
 DL: {num_active} | UP : {num_upload} | SPLIT : {num_split}
 ZIP : {num_archi} | UNZIP : {num_extract} | TOTAL : {tasks} 
+Made by Xd
 """
     return stats
 dispatcher.add_handler(
